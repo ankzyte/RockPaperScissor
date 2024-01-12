@@ -1,0 +1,92 @@
+﻿body
+{
+    padding:0;
+    margin:0;
+    font-family:Arial;
+}
+
+.navbar {
+    background-color: #09182A;
+    height:8vmin;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:28px;
+    font-weight:700;
+}
+
+.hand-signs{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    padding:50px;
+}
+
+.hand-signs .sign{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:14vmin;
+    width:14vmin;
+    overflow:hidden;
+    border-radius:50%;
+    margin:0 20px;
+    border:6px solid white;
+}
+
+.hand-signs .sign:hover{
+    border:6px solid black;
+}
+
+.sign img{
+    height:14vmin;
+    width:26vmin;
+}
+
+.scores{
+    display:flex;
+    justify-content :center;
+}
+
+.scores .scored{
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   margin:30px;
+   
+}
+
+.scores .score {
+    font-size:46px;
+}
+
+.scores .name{
+    font-size:18px;
+}
+
+.winner{
+    display:flex;
+    justify-content:center;
+    padding:30px;
+}
+
+.winner button {
+    border: none;
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    border-radius:16px;
+}
+
+.winner .draw{
+    background-color: #09182A;
+}
+
+.winner .won{
+    background-color:green;
+}
+
+.winner .lost{
+    background-color:red;
+}
